@@ -1,0 +1,87 @@
+body{
+    width: 100%;
+    /* overflow: hidden; */
+    font-size: 1.2em;
+    font-family: initial;
+ 
+}
+#content{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+h1,h2{
+
+}
+h3,h4{
+  text-align: center;
+}
+h5,h6{
+
+}
+.numbers{
+  display: inline-block;
+  margin-left: 5px;
+  text-align: center;
+  border: 2px solid #333333;
+  margin-top: 15px;
+  border-radius: 50%;
+  padding: 5px;
+  max-width: 20px;
+  width: 5%;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px black;
+}
+#scene-game{
+  text-align: left;
+  /* border: 3px solid black; */
+  padding: 0px 0px 15px 10px;
+  border-radius: 25px;
+  width: 70%;
+  float: right;
+  margin-left: 30px;
+}
+.helps{
+  display: inline-block;
+  width: 50px;
+  padding: 5px;
+  margin-bottom: 20px;
+  color: white;
+  border-radius: 50%;
+  height: 50px;
+  line-height: 2.5;
+  cursor: pointer;
+}
+#help1{
+  background-color: #3497DA;
+}
+#help2{
+  background-color: #E94B3C;
+}
+#help3{
+  background-color: #1BBB9A;
+}
+.helps:hover{
+  opacity: .5;
+}
+.objects-times{
+  font-size: 30px;
+  color: #CE3535;
+}
+
+#help-text{
+  width: 30%;
+}
+#background{
+     background-image: url(../img/desert.png);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     opacity: .7;
+     position: absolute;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     z-index: -1;
+}
